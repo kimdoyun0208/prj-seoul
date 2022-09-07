@@ -60,7 +60,6 @@ body::-webkit-scrollbar {
     width: 100%;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 10px;
     animation-name: fade_in_and_move;
     animation-duration: 1200ms;
     animation-fill-mode: forwards;
@@ -156,12 +155,12 @@ body::-webkit-scrollbar {
 @keyframes fade_in_and_move {
     0% {
         opacity: 0%;
-        margin-top: 10px;
+        transform: translate(0px, 10px);
     }
 
     100% {
         opacity: 100%;
-        margin-top: 0px;
+        transform: translate(0px, 0px);
     } 
 }
 
