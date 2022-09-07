@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     pointer-events: none;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 html {
@@ -92,7 +95,7 @@ body::-webkit-scrollbar {
     opacity: 0%;
     animation-duration: 1000ms;
     animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease;
 }
 
 .img_box {
@@ -165,7 +168,7 @@ body::-webkit-scrollbar {
 @keyframes slide_from_left {
     0% {
         opacity: 0%;
-        transform: translate(20vw, 0);
+        transform: translate(5vw, 0);
     }
 
     100% {
@@ -177,7 +180,7 @@ body::-webkit-scrollbar {
 @keyframes slide_from_right {
     0% {
         opacity: 0%;
-        transform: translate(-20vw, 0);
+        transform: translate(-5vw, 0);
     }
 
     100% {
